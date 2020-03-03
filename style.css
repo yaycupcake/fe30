@@ -3,8 +3,16 @@ body {
 	font-size: 24px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eaf1ff+0,66b2ff+100 */
+background: rgb(234,241,255); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(234,241,255,1) 0%, rgba(102,178,255,0.5) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(234,241,255,1) 0%,rgba(102,178,255,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(234,241,255,1) 0%,rgba(102,178,255,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaf1ff', endColorstr='#66b2ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+height: 100vh;
+
 }
 
 h1 {
