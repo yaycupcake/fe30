@@ -1,3 +1,32 @@
 body {
-	background-color: lightblue;
+	color: navy;
+	font-size: 24px;
+}
+
+.schedule {
+	display: flex;
+	flex-direction: column;
+}
+
+.slot {
+	display: grid;
+	grid-template-areas: 
+	"time"
+	"event"
+	"host"
+	"guest"
+	;
+	margin: 1em;
+	width: auto;
+}
+
+@media (min-width: 520px) {
+
+.slot {
+	grid-template-areas: 
+	"time event"
+	"host guest"
+	;
+}
+
 }
