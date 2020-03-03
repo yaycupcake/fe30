@@ -14,7 +14,7 @@ const dayOneSchedule = [
 ];
 
 
-const day1 = document.querySelector("#day1");
+const day1 = document.querySelector('#day1');
 
 let testThing = document.createElement('div');
 testThing.textContent = "asdf testing";
@@ -35,5 +35,7 @@ for (let i = 0; i < dayOneSchedule.length; i++) {
 
 	day1.appendChild(slotNode);
 	// document.querySelector("#day1").appendChild(slotNode);
+
+	console.log(slot.time);
 
 }
