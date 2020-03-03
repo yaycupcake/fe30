@@ -11,7 +11,7 @@ const dayOneSchedule = [
 	host: "Cool Host Dude",
 	guest: "Mr. Person Human"
 }
-]
+];
 
 
 const day1 = document.querySelector("#day1");
