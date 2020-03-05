@@ -41,8 +41,10 @@ for (let i = 0; i < dayOneSchedule.length; i++) {
 		let hostTwitterNode = document.createElement('a');
 		hostTwitterNode.classList.add('host-twitter');
 		hostTwitterNode.href = slot.hostTwitter;
-		hostTwitterNode.textContent = "Twitter";
-		hostNode.appendChild(hostTwitterNode)
+		hostNode.appendChild(hostTwitterNode);
+		let hostTwitterIconNode = document.createElement('i');
+		hostTwitterIconNode.classList.add('fab', 'fa-twitter');
+		hostTwitterNode.appendChild(hostTwitterIconNode);
 	}
 	slotNode.appendChild(hostNode);
 
