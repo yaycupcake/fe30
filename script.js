@@ -162,7 +162,7 @@ const dayTwoSchedule = [
     event: "Smash Bros FE themed Challenges",
     host: "NairoMK",
     hostTwitch: "https://twitch.tv/nairomk",
-    guest: "Yuri Lowenthal"
+    guest: "Special Guest"
   },
   {
     time: "9:00PM",
