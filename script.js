@@ -43,7 +43,13 @@ const dayOneSchedule = [
   },
   {
     time: "9:00PM",
-    event: "Party Game Block"
+    event: "Party Games w/FE Talent",
+    host: "Kayli Mills, Jenny Yokobori"
+  },
+  {
+    time: "12:00AM",
+    event: "Evening Wrapup",
+    host: "darkdogdemon"
   }
 ]
 
@@ -136,21 +142,32 @@ for (let i = 0; i < dayOneSchedule.length; i++) {
 
 const dayTwoSchedule = [
   {
+    time: "4:30PM",
+    event: "Intro",
+    host: "darkdogdemon",
+  },
+  {
     time: "5:00PM",
     event: "Deer Abbey",
     host: "Joe Zieja",
-    hostTwitch: "https://twitch.tv/joezieja"
+    hostTwitch: "https://twitch.tv/joezieja",
+    guest: "Ratana, Chris Hackney"
   },
   {
     time: "6:00PM",
-    event: "Break #2"
+    event: "Break"
   },
   {
     time: "6:30PM",
-    event: "Interview",
+    event: "Smash Bros FE themed Challenges",
     host: "NairoMK",
     hostTwitch: "https://twitch.tv/nairomk",
     guest: "Yuri Lowenthal"
+  },
+  {
+    time: "9:00PM",
+    event: "Event Wrapup",
+    host: "darkdogdemon"
   }
 ]
 
