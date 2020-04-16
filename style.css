@@ -12,6 +12,7 @@ background: -webkit-linear-gradient(-45deg,  rgba(234,241,255,1) 0%,rgba(102,178
 background: linear-gradient(135deg,  rgba(234,241,255,1) 0%,rgba(102,178,255,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaf1ff', endColorstr='#66b2ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 height: 100vh;
+overflow: none;
 
 }
 
@@ -26,12 +27,16 @@ h1 {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+	align-items: flex-start;
+	width: 100vw;
+	overflow: auto;
 }
 
 .schedule {
 	display: flex;
 	flex-direction: column;
-	max-width: 30em;
+	max-width: 35em;
+	margin: 1em;
 }
 
 .slot {
@@ -45,8 +50,18 @@ h1 {
 	;
 	padding: 1em;
 	width: auto;
-	border: 1px solid #0070ef;
+	/*border: 1px solid #0070ef;*/
 	grid-gap: 1em;
+}
+
+
+
+.slot:nth-of-type(odd) {
+	background-color: rgba(245,245,245,0.5)
+}
+
+.slot:nth-of-type(even) {
+	background-color: rgba(235,235,255,0.5)
 }
 
 
@@ -81,4 +96,10 @@ h1 {
 	;
 }
 
+}
+
+
+.host-twitter,
+.guest-twitter {
+margin-left: .5em;
 }
