@@ -1,4 +1,5 @@
 body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	color: #0070ef;
 	font-size: 24px;
 	display: flex;
@@ -102,7 +103,8 @@ h1 {
 
 .host-twitter,
 .host-twitch,
-.guest-twitter {
+.guest-twitter,
+.guest-twitch {
 margin-left: .5em;
 }
 
