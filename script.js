@@ -10,8 +10,9 @@ const dayOneSchedule = [
 	time: "12:30PM",
 	event: "FE9 Block",
 	host: "Gwimpage",
-	guest: "KirbyMastah",
-	guestTwitter: "https://twitter.com/KirbyMastah"
+	guest: "Kirbymastah",
+	guestTwitter: "https://twitter.com/KirbyMastah",
+	guestTwitch: "https://www.twitch.tv/kirbymastah"
 },
 {
 	time: "3:30PM",
@@ -19,9 +20,10 @@ const dayOneSchedule = [
 },
 {
 	time: "4:00PM",
-	event: "Three Houses Block",
-	host: "KirbyMastah",
+	event: "3 Houses Block (Bid War)",
+	host: "Kirbymastah",
 	hostTwitter: "https://twitter.com/KirbyMastah",
+	hostTwitch: "https://www.twitch.tv/kirbymastah",
 	guest: "Gwimpage"
 },
 {
@@ -37,6 +39,10 @@ const dayOneSchedule = [
 {
 	time: "8:30PM",
 	event: "Break #3"
+},
+{
+	time: "9:00PM",
+	event: "Party Game Block"
 }
 ]
 
@@ -74,6 +80,16 @@ for (let i = 0; i < dayOneSchedule.length; i++) {
 			hostTwitterIconNode.classList.add('fab', 'fa-twitter');
 			hostTwitterNode.appendChild(hostTwitterIconNode);
 		}
+		if (slot.hostTwitch) {
+			let hostTwitchNode = document.createElement('a');
+			hostTwitchNode.classList.add('host-twitch');
+			hostTwitchNode.href = slot.hostTwitch;
+			hostNode.appendChild(hostTwitchNode);
+			let hostTwitchIconNode = document.createElement('i');
+			hostTwitchIconNode.classList.add('fab', 'fa-twitch');
+			hostTwitchNode.appendChild(hostTwitchIconNode);
+		}
+
 		slotNode.appendChild(hostNode);
 	}
 
@@ -90,6 +106,16 @@ for (let i = 0; i < dayOneSchedule.length; i++) {
 			guestTwitterIconNode.classList.add('fab', 'fa-twitter');
 			guestTwitterNode.appendChild(guestTwitterIconNode);
 		}
+		if (slot.guestTwitch) {
+			let guestTwitchNode = document.createElement('a');
+			guestTwitchNode.classList.add('guest-twitch');
+			guestTwitchNode.href = slot.guestTwitch;
+			guestNode.appendChild(guestTwitchNode);
+			let guestTwitchIconNode = document.createElement('i');
+			guestTwitchIconNode.classList.add('fab', 'fa-twitch');
+			guestTwitchNode.appendChild(guestTwitchIconNode);
+		}
+
 		slotNode.appendChild(guestNode);
 	}
 
@@ -111,6 +137,8 @@ const dayTwoSchedule = [
 {
 	time: "5:00PM",
 	event: "Deer Abbey",
+	host: "Joe Zieja",
+	hostTwitch: "https://twitch.tv/joezieja"
 },
 {
 	time: "6:00PM",
@@ -119,7 +147,8 @@ const dayTwoSchedule = [
 {
 	time: "6:30PM",
 	event: "Interview",
-	host: "Nairo",
+	host: "NairoMK",
+	hostTwitch: "https://twitch.tv/nairomk",
 	guest: "Yuri Lowenthal"
 }
 ]
@@ -159,6 +188,15 @@ for (let i = 0; i < dayTwoSchedule.length; i++) {
 			let hostTwitterIconNode = document.createElement('i');
 			hostTwitterIconNode.classList.add('fab', 'fa-twitter');
 			hostTwitterNode.appendChild(hostTwitterIconNode);
+		}
+		if (slot.hostTwitch) {
+			let hostTwitchNode = document.createElement('a');
+			hostTwitchNode.classList.add('host-twitch');
+			hostTwitchNode.href = slot.hostTwitch;
+			hostNode.appendChild(hostTwitchNode);
+			let hostTwitchIconNode = document.createElement('i');
+			hostTwitchIconNode.classList.add('fab', 'fa-twitch');
+			hostTwitchNode.appendChild(hostTwitchIconNode);
 		}
 		slotNode.appendChild(hostNode);
 	}

@@ -12,7 +12,7 @@ background: -webkit-linear-gradient(-45deg,  rgba(234,241,255,1) 0%,rgba(102,178
 background: linear-gradient(135deg,  rgba(234,241,255,1) 0%,rgba(102,178,255,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaf1ff', endColorstr='#66b2ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 height: 100vh;
-overflow: none;
+overflow: hidden;
 
 }
 
@@ -30,6 +30,7 @@ h1 {
 	align-items: flex-start;
 	width: 100vw;
 	overflow: auto;
+	margin-bottom: 1em;
 }
 
 .schedule {
@@ -100,6 +101,11 @@ h1 {
 
 
 .host-twitter,
+.host-twitch,
 .guest-twitter {
 margin-left: .5em;
+}
+
+footer {
+	margin-bottom: 1em;
 }
