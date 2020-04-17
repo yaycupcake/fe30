@@ -3,6 +3,7 @@ const dayOneSchedule = [
     time: "12:00PM",
     event: "Stream Intro",
     host: "darkdogdemon",
+    hostTwitch: "https://www.twitch.tv/rfireemblemheroes"
     // hostTwitter: "https://twitter.com/XinChun93",
     // guest: "Super Cool Voice Actor"
   },
@@ -145,6 +146,7 @@ const dayTwoSchedule = [
     time: "4:30PM",
     event: "Intro",
     host: "darkdogdemon",
+    hostTwitch: "https://www.twitch.tv/rfireemblemheroes"
   },
   {
     time: "5:00PM",
