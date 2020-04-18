@@ -28,7 +28,7 @@ const gwim = new Contributor("Gwimpage", "Gameplayer", "https://twitter.com/Gwim
 const kirby = new Contributor("Kirbymastah", "Gameplayer", "https://twitter.com/Kirbymastah", "https://www.twitch.tv/KirbymastaH")
 
 const christian = new Contributor("Christian La Monte", "Voice Actor", "https://twitter.com/WritingMadness", "https://www.twitch.tv/countoflamontecristo")
-const deva = new Contributor("Deva Maria", "Voice Actor", "https://twitter.com/deva_marie", undefined)
+const deva = new Contributor("Deva Marie", "Voice Actor", "https://twitter.com/deva_marie", undefined)
 const allegra = new Contributor("Allegra Clark", "Voice Actor", "https://twitter.com/SimplyAllegra", undefined)
 const jenny = new Contributor("Jenny Yokobori", "Voice Actor", "https://twitter.com/JennyYokobori", undefined)
 const morgan = new Contributor("Morgan Berry", "Voice Actor", "https://twitter.com/TheMorganBerry", undefined)
