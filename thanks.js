@@ -37,7 +37,7 @@ const joe = new Contributor("Joe Zieja", "Voice Actor", "https://twitter.com/Joe
 const ratana = new Contributor("Ratana", "Voice Actor", "https://twitter.com/diamondsong", undefined)
 const greg = new Contributor("Greg Chun", "Voice Actor", "https://twitter.com/Greg_Chun", "https://www.twitch.tv/Greg_Chun")
 
-const sei = new Contributor("Yaycupcake", "Team FE", "https://twitter.com/XinChun93", "https://www.twitch.tv/DiscoOmastar")
+const sei = new Contributor("Yaycupcake", "Team FE", "https://twitter.com/XinChun93", undefined/*"https://www.twitch.tv/DiscoOmastar"*/)
 const elie = new Contributor("Elieson", "Team FE", "https://twitter.com/TheElieson", "https://www.twitch.tv/the_elieson")
 const ddd = new Contributor("DarkDogDemon", "Team FE", undefined, "https://www.twitch.tv/huluandwoohoo")
 const michelle = new Contributor("Michelle_Tan", "Team FE", "https://twitter.com/michelle_tan101", "https://www.twitch.tv/michelle_tan101")
