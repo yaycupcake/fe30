@@ -36,8 +36,8 @@ const yuri = new Contributor("Yuri Lowenthal", "Voice Actor", "https://twitter.c
 const joe = new Contributor("Joe Zieja", "Voice Actor", "https://twitter.com/JoeZieja", "https://www.twitch.tv/joezieja")
 const ratana = new Contributor("Ratana", "Voice Actor", "https://twitter.com/diamondsong", undefined)
 const greg = new Contributor("Greg Chun", "Voice Actor", "https://twitter.com/Greg_Chun", "https://www.twitch.tv/Greg_Chun")
-const chris = new Contributor("Chris Hackney", "Voice Actor", "https://twitter.com/ChrisHackneyGGK", undefined)
-const tara = new Contributor("Tara Platt", "Voice Actor", undefined, undefined)
+const chris = new Contributor("Chris Hackney", "Voice Actor", "https://twitter.com/ChrisHackneyGGK", "https://www.twitch.tv/chrishackneyva")
+const tara = new Contributor("Tara Platt", "Voice Actor", "https://twitter.com/Taraplatt", undefined)
 
 const sei = new Contributor("Yaycupcake", "Team FE", "https://twitter.com/XinChun93", undefined/*"https://www.twitch.tv/DiscoOmastar"*/)
 const elie = new Contributor("Elieson", "Team FE", "https://twitter.com/TheElieson", "https://www.twitch.tv/the_elieson")
