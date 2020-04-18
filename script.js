@@ -231,6 +231,6 @@ for (let i = 0; i < dayTwoSchedule.length; i++) {
 
   day2.appendChild(slotNode);
 
-  console.log(slot.time);
+  // console.log(slot.time);
 
 }

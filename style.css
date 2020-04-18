@@ -118,3 +118,27 @@ footer {
   margin-bottom: 1em;
   text-align: center;
 }
+
+
+.contributors {
+  overflow-y: auto;
+  width: 100vw;
+  margin: 1em 0;
+}
+
+
+.contrib {
+  margin: .5em;
+  text-align: center;
+}
+
+.contrib .host-twitter,
+.contrib .host-twitch {
+  margin-left: 0;
+  margin-right: .5em;
+}
+
+a {
+  /* text-decoration: none; */
+  color: inherit;
+}
