@@ -22,6 +22,7 @@ const helly = new Contributor("HellyonWhite", "Artist", "https://twitter.com/Hel
 const okke = new Contributor("Okkefac", "Artist", "https://twitter.com/Okkefak", "https://www.twitch.tv/okkefac")
 const tecc = new Contributor("Tecchen", "Artist", "https://twitter.com/Tecchen", "https://www.twitch.tv/tecchen")
 const twofour = new Contributor("24914", "Artist", "https://twitter.com/24914x", undefined)
+const soeda = new Contributor("Soeda Ippei", "Artist", "https://twitter.com/Ippei_painter", undefined)
 
 const nairo = new Contributor("NairoMK", "Gameplayer", "https://twitter.com/Nairomk", "https://www.twitch.tv/NairoMK")
 const gwim = new Contributor("Gwimpage", "Gameplayer", "https://twitter.com/Gwimpage", "https://twitch.tv/Gwimpage")
