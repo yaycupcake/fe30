@@ -28,6 +28,8 @@ const nairo = new Contributor("NairoMK", "Gameplayer", "https://twitter.com/Nair
 const gwim = new Contributor("Gwimpage", "Gameplayer", "https://twitter.com/Gwimpage", "https://twitch.tv/Gwimpage")
 const kirby = new Contributor("Kirbymastah", "Gameplayer", "https://twitter.com/Kirbymastah", "https://www.twitch.tv/KirbymastaH")
 
+const quo = new Contributor("quo", "Commentary", "https://twitter.com/ironically_quo", "https://www.twitch.tv/quoooo")
+
 const christian = new Contributor("Christian La Monte", "Voice Actor", "https://twitter.com/WritingMadness", "https://www.twitch.tv/countoflamontecristo")
 const deva = new Contributor("Deva Marie", "Voice Actor", "https://twitter.com/deva_marie", undefined)
 const allegra = new Contributor("Allegra Clark", "Voice Actor", "https://twitter.com/SimplyAllegra", undefined)
@@ -39,12 +41,19 @@ const ratana = new Contributor("Ratana", "Voice Actor", "https://twitter.com/dia
 const greg = new Contributor("Greg Chun", "Voice Actor", "https://twitter.com/Greg_Chun", "https://www.twitch.tv/Greg_Chun")
 const chris = new Contributor("Chris Hackney", "Voice Actor", "https://twitter.com/ChrisHackneyGGK", "https://www.twitch.tv/chrishackneyva")
 const tara = new Contributor("Tara Platt", "Voice Actor", "https://twitter.com/Taraplatt", undefined)
+const brianna = new Contributor("Brianna Knickerbocker", "Voice Actor", undefined, undefined)
+const amanda = new Contributor("Amanda Celine Miller", "Voice Actor", undefined, undefined)
+const julie = new Contributor("Julie Ann Taylor", "Voice Actor", undefined, undefined)
+const misty = new Contributor("Misty Lee", "Voice Actor", undefined, undefined)
+const kyle = new Contributor("Kyle McCarley", "Voice Actor", undefined, undefined)
+const erica = new Contributor("Erica Lindbeck", "Voice Actor", undefined, undefined)
 
 const sei = new Contributor("Yaycupcake", "Team FE", "https://twitter.com/XinChun93", undefined/*"https://www.twitch.tv/DiscoOmastar"*/)
 const elie = new Contributor("Elieson", "Team FE", "https://twitter.com/TheElieson", "https://www.twitch.tv/the_elieson")
 const ddd = new Contributor("DarkDogDemon", "Team FE", undefined, "https://www.twitch.tv/huluandwoohoo")
 const michelle = new Contributor("Michelle_Tan", "Team FE", "https://twitter.com/michelle_tan101", "https://www.twitch.tv/michelle_tan101")
 const djb = new Contributor("DJB2Spirit", "Team FE", "https://twitter.com/djb2spirit", "https://www.twitch.tv/djb2spirit")
+
 
 // console.log(contributors)
 
