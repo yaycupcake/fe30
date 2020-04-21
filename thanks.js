@@ -61,7 +61,7 @@ const aki = new Contributor("Akialyne", "Team FE (Team Joe Zieja)", "https://twi
 const boo = new Contributor("BootyFarts22", "Team FE (Team Joe Zieja)", "https://twitter.com/BootyFarts22", undefined)
 const ice = new Contributor("Icemilk", "Team FE (Team Joe Zieja)", "https://twitter.com/IcemilkArt", undefined)
 const soft = new Contributor("Softguitar", "Team FE (Team Joe Zieja)", "https://twitter.com/soft_guitar60", undefined
-const hina = new Contributor("Hinapuff", "Team FE (Team Joe Zieja)", "https://twitter.com/hinapuff", "")
+const hina = new Contributor("Hinapuff", "Team FE (Team Joe Zieja)", "https://twitter.com/hinapuff", undefined)
 const trainer = new Contributor("TrainerTrevino", "Team FE (Team Joe Zieja)", "https://twitter.com/TrainerTrevino", undefined)
 
 
