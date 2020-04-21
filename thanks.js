@@ -47,12 +47,23 @@ const julie = new Contributor("Julie Ann Taylor", "Voice Actor", "https://twitte
 const misty = new Contributor("Misty Lee", "Voice Actor", "https://twitter.com/Misty_Lee", undefined)
 const kyle = new Contributor("Kyle McCarley", "Voice Actor", "https://www.twitch.tv/kylemccarley", undefined)
 const erica = new Contributor("Erica Lindbeck", "Voice Actor", "https://twitter.com/ericalindbeck", undefined)
+const brandon = new Contributor("Brandon Winckler", "Voice Actor", "https://twitter.com/BWincklerVA", undefined)
 
 const sei = new Contributor("Yaycupcake", "Team FE", "https://twitter.com/XinChun93", "https://www.twitch.tv/DiscoOmastar")
 const elie = new Contributor("Elieson", "Team FE", "https://twitter.com/TheElieson", "https://www.twitch.tv/the_elieson")
 const ddd = new Contributor("DarkDogDemon", "Team FE", undefined, "https://www.twitch.tv/huluandwoohoo")
 const michelle = new Contributor("Michelle_Tan", "Team FE", "https://twitter.com/michelle_tan101", "https://www.twitch.tv/michelle_tan101")
 const djb = new Contributor("DJB2Spirit", "Team FE", "https://twitter.com/djb2spirit", "https://www.twitch.tv/djb2spirit")
+const bluetulip = new Contributor("BlueTulip", "Team FE", "https://twitter.com/BluesTulips", "https://www.twitch.tv/bluetulips")
+
+
+const aki = new Contributor("Akialyne", "Team FE (Team Joe Zieja)", "https://twitter.com/akialyne", undefined)
+const boo = new Contributor("BootyFarts22", "Team FE (Team Joe Zieja)", "https://twitter.com/BootyFarts22", undefined)
+const ice = new Contributor("Icemilk", "Team FE (Team Joe Zieja)", "https://twitter.com/IcemilkArt", undefined)
+const soft = new Contributor("Softguitar", "Team FE (Team Joe Zieja)", "https://twitter.com/soft_guitar60", undefined
+const hina = new Contributor("Hinapuff", "Team FE (Team Joe Zieja)", "https://twitter.com/hinapuff", "")
+const trainer = new Contributor("TrainerTrevino", "Team FE (Team Joe Zieja)", "https://twitter.com/TrainerTrevino", undefined)
+
 
 
 // console.log(contributors)
